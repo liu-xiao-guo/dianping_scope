@@ -1,0 +1,15 @@
+{
+    "architecture": "@CLICK_ARCH@",
+    "description": "A tutorial for Ubuntu",
+    "framework": "ubuntu-sdk-14.10-dev2",
+    "hooks": {
+        "dianping": {
+            "apparmor": "dianping.apparmor",
+            "scope": "dianping"
+        }
+    },
+    "maintainer": "XiaoGuo, Liu <xiaoguo.liu@canonical.com>",
+    "name": "com.ubuntu.developer.liu-xiao-guo.dianping",
+    "title": "dianping",
+    "version": "0.1"
+}
